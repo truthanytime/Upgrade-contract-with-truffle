@@ -1,0 +1,1256 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x71bae6848b0ae5E39289378aE6a1540615989F5E",
+    "txHash": "0x06353f5cb80cec6a07a1ba9617d9bd4d4bddfb3fa85d623bded1f488bd721e0f"
+  },
+  "proxies": [
+    {
+      "address": "0xA132DC29f485bEdBFfC8BEBB466a449cD60D9579",
+      "txHash": "0x163431c8bb58a9c6b79e8b4f18acafec26edfbc57abda1bd799231dee9482b21",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x08290e34eA2221b0C4Ec6C8E80fc37F194DeB75B",
+      "txHash": "0x87ed765e80503b9f822e3b2c37c1f7a1b18c00bdd799fe2db72ec999c8852c29",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9F0659B35A956761866Bc0d2Abf6Dcbe34C3cFF5",
+      "txHash": "0x1e256e57e8b3d0dc740ab0c3606593dc562d629f83910f616be80c342d9e34ca",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x867a749E9e5071Fe9009f3763A7d8655179f8dB8",
+      "txHash": "0x1d4ce13448dc456fb3bd942a4cfb12f680c80bdc5ff16221568219764f6991d7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x04ddb9b022021E5a3dda2196aD3Ef5aF14C79b5b",
+      "txHash": "0xcf7fd9e15de0c9ab4b444cbf9a9ca61dbd48fcccbe5895ed54c3c0a9f8a33e9d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9d83308340f25806670E7E48018873Eb57544B47",
+      "txHash": "0x160175c4c70fd4094a120c7d4562fde639e70c09c74d5a210f30dc3af7862a4f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x76060819C597a41d7bA47A745CA1781F9351e4bd",
+      "txHash": "0xf65781e63ec70125760d5652606e8bd7bf8dcfdb6e846b0a2f4965d7bfcbf7f6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3247B1215e0B4dbDdB84Caa063639BEf270a5867",
+      "txHash": "0xa9a59779a875924e0e7cbf120066aaff7381290295116d9721f6df7deb817c34",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe95e879Cc61a16Fdfbcc798Da49D68d981389Ba5",
+      "txHash": "0x191136b84d813091fdeb6c1dc00e36b549c412749ea1c6598275c1f71f71bbf5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8dc06E766974d29a4F1F0A4939F7c0264B84B6D1",
+      "txHash": "0x49dfa63733236850327642d60779f9fe59d4fddc6ff975fc3eb82eb035e50a37",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb4154A79b3148A4f98807C6E4709166b51ec40be",
+      "txHash": "0x00749d7b77bf7075ea006e2adbcd892982f297b385acb0276de36b65312da44d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x865604a69A601c966184E7bA9E289Db9d09868cA",
+      "txHash": "0xeeda414b71aa4498aa1a73a53a5d14227d7a79011dd89fc7d56157a05fe4aa4b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFFddc092322b6631c56dd199ac40D390E0a280d1",
+      "txHash": "0x269f233bba92da6d4cf128ded1e340831859000ba07e2d4de9b132b6c3f4a66f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "df533cf8307ebfa1f0d2394f9bcb7f6765fd4e72dfb403c141d5e2ab91d9a5dc": {
+      "address": "0x2B443e90C3c76A6790E6f1FB7Ef70E75AD38ddb5",
+      "txHash": "0xa50ff480f1daf6c73fced323e76092e2b0234c85ed35951c1c201562cfd7e8c3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "d82f50139ec733f3f9760a3679378622550a8e196d08234acaf1fca939ebd387": {
+      "address": "0xFFDc6357C8825E9a6DfF25E9506E7b86d002860B",
+      "txHash": "0xe54f05c8bae6450f11b7d8b2a6bb80a4239cd51f379312ba4c422bdefa946dcb",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "62c3e99bccd536cbfea24ca6519528f4053dd6ba6b5080bb7bb7006c65ef98c3": {
+      "address": "0xFe4da1b8E56325b184e7A934644B68A66217d5F5",
+      "txHash": "0x4667fbe509dbc36a54be012c6080bc6074199235b5256bae55fb4b4c54c44731",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_rOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:426"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:427"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:428"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_isExcludedFromFee",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:430"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_isExcluded",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:432"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_excluded",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:433"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "MAX",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:435"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:436"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_rTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:437"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tFeeTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:438"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:440"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:441"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:442"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "month",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:443"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "vestinglock",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:445"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "lastRun",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:446"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_taxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:448"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_previousTaxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:449"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_burnFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:450"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_liquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:452"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_previousLiquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:453"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "uniswapV2Router",
+            "type": "t_contract(IUniswapV2Router02)1005",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:455"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "uniswapV2Pair",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:456"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "inSwapAndLiquify",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:458"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "swapAndLiquifyEnabled",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:459"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_maxTxAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:461"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "numTokensSellToAddToLiquidity",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:462"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account1",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:464"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account2",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:465"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account3",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:466"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account4",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:467"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_contract(IUniswapV2Router02)1005": {
+            "label": "contract IUniswapV2Router02"
+          }
+        }
+      }
+    },
+    "996eb8e4a5f7cd9d85839fc174abe132ad113078393ef7c38951b49561b59de0": {
+      "address": "0xfC0EFA5FDEB6D9a78BE22f829019CCBFEa36e846",
+      "txHash": "0xdc5a712b4db4f1bb6da3d23c370939f389b2790293c0bb7ba21125de824a7e77",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_rOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:426"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:427"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:428"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_isExcludedFromFee",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:430"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_isExcluded",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:432"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_excluded",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:433"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "MAX",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:435"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:436"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_rTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:437"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tFeeTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:438"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:440"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:441"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:442"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "month",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:443"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "vestinglock",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:445"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "lastRun",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:446"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_taxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:448"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_previousTaxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:449"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_burnFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:450"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_liquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:452"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_previousLiquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:453"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "uniswapV2Router",
+            "type": "t_contract(IUniswapV2Router02)1200",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:455"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "uniswapV2Pair",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:456"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "inSwapAndLiquify",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:458"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "swapAndLiquifyEnabled",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:459"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_maxTxAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:461"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "numTokensSellToAddToLiquidity",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:462"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account1",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:464"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account2",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:465"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account3",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:466"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "account4",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:467"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_contract(IUniswapV2Router02)1200": {
+            "label": "contract IUniswapV2Router02"
+          }
+        }
+      }
+    },
+    "55685c98f7b17f8e3f5b8c974d66acaf55f1cc0ad11e8b26153fcc60600291f6": {
+      "address": "0xcEC753903a6fBdC382C5F7D56e34549c8eca6219",
+      "txHash": "0x878401af67f19dd4363bb1f531ad21ff7a5ed8d45abe4dcc548603f71d30dfc4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "73ce8717cc7399fa9f015cf42acf9aca2bef77f9a2d7f222a8f1753e0bce2775": {
+      "address": "0x87C669399225db0Ad03b3Fd70A17Cd3317C7dD90",
+      "txHash": "0x140082c53e866e76b7012c1dd5f92a2a3e3d93d970bc7d2d4b62d97d4439a806",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "7ae62f359477d1911b24466de11dbdcd60e9b201ce544303cb89b27a94043050": {
+      "address": "0x1B561b9172178652AF22bf9062B38B370B31180f",
+      "txHash": "0xb3138b503f6f8ad16135863cdeacb35be8681d84bca0863f9488276f69ff56a3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_rOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:426"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:427"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:428"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_isExcludedFromFee",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:430"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_isExcluded",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:432"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_excluded",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:433"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "MAX",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:435"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:436"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_rTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:437"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tFeeTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:438"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:440"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:441"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:442"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "month",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:443"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "vestinglock",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:445"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "lastRun",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:446"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_taxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:448"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_previousTaxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:449"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_burnFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:450"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_liquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:452"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_previousLiquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:453"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "uniswapV2Router",
+            "type": "t_contract(IUniswapV2Router02)4536",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:455"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "uniswapV2Pair",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:456"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "inSwapAndLiquify",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:458"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "swapAndLiquifyEnabled",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:459"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_maxTxAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:461"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "numTokensSellToAddToLiquidity",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:462"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account1",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:464"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account2",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:465"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account3",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:466"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account4",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:467"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_contract(IUniswapV2Router02)4536": {
+            "label": "contract IUniswapV2Router02"
+          }
+        }
+      }
+    },
+    "4c694c4d0049917c548f35b7664707aeb3b147f61ca90750ad748ef36103be51": {
+      "address": "0xAc2d65356072C5d1D04348DE6c2e195d55603BA5",
+      "txHash": "0x6a890413fabb647102cb37f9326f5e4362a6d4473f9a0e8c446b0bfaf476a7dd",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:219"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:220"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:222"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:224"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:225"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:226"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    },
+    "f61cb5ee70ffa8674097f50490f98132b549a413612f74e932e3496a7ab2f3a6": {
+      "address": "0xf8E5F9745e044d37B753acb629808F9e36e7866C",
+      "txHash": "0xb40fc7f2e553b58c686c3b4266e05a958327e7277d015a3ea734eecef577065f",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:426"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:427"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:428"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:430"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:431"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:432"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_rOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:433"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_isExcludedFromFee",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:435"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_isExcluded",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:437"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_excluded",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:438"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "MAX",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:440"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_rTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:441"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_tFeeTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:442"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "month",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:443"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "vestinglock",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:445"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "lastRun",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:446"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_taxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:448"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_previousTaxFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:449"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_burnFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:450"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_liquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:452"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_previousLiquidityFee",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:453"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "uniswapV2Router",
+            "type": "t_contract(IUniswapV2Router02)2117",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:455"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "uniswapV2Pair",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:456"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "inSwapAndLiquify",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:458"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "swapAndLiquifyEnabled",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:459"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "_maxTxAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:461"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "numTokensSellToAddToLiquidity",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:462"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account1",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:464"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account2",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:465"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account3",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:466"
+          },
+          {
+            "contract": "FansOnlyCoin2",
+            "label": "account4",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:467"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_contract(IUniswapV2Router02)2117": {
+            "label": "contract IUniswapV2Router02"
+          }
+        }
+      }
+    },
+    "b223e3571beb6e258755c253282891a6b6fc8a37db8b0e268b3732277261bed2": {
+      "address": "0x7AF558F8C7452A0e3c01e689b84D4234323bf1d0",
+      "txHash": "0xea4a71f1166b1eefba49c230265e93de6549717abb736655daeb5c3812b7ba17",
+      "layout": {
+        "storage": [
+          {
+            "contract": "OwnerHelper",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+          },
+          {
+            "contract": "OwnerHelper",
+            "label": "manager",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tOwned",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:219"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:220"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_tTotal",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:222"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:224"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:225"
+          },
+          {
+            "contract": "FansOnlyCoin",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:226"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    }
+  }
+}
