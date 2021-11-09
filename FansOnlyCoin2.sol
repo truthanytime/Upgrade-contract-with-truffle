@@ -487,7 +487,7 @@ contract FansOnlyCoin2 is IERC20, OwnerHelper {
         _decimals = 18;
         _tTotal = 10**9 * 10**18; // our total token amount
         _tOwned[msg.sender] = _tTotal;
-        emit Transfer(address(0), msg.sender, _tTotal);
+        
         MAX = ~uint256(0);
         _rTotal = (MAX - (MAX % _tTotal)); 
         month = 2592000;

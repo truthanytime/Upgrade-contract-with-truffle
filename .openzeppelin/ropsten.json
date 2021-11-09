@@ -69,6 +69,21 @@
       "address": "0xFFddc092322b6631c56dd199ac40D390E0a280d1",
       "txHash": "0x269f233bba92da6d4cf128ded1e340831859000ba07e2d4de9b132b6c3f4a66f",
       "kind": "transparent"
+    },
+    {
+      "address": "0x1d95A0F2DccEa88666ce54CbFCd62C3846Bc5073",
+      "txHash": "0x76dcf29130967d3f811a4acd702a06d5391d4fa1d0a2e881e91fb99fb9b7d5bc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd6d48D695BfB911386EA449969a5cEde4408d602",
+      "txHash": "0xa4afae57a8c140b7070ee2a0f3831fe163f4112aa517b0f18b51b01ce49b1e56",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9a0242CEAf9E9A81715EEf48184411C4D6fD42b0",
+      "txHash": "0x8ad503ea046762631bddf935d9803c39395d21c906de561d47858dc6c0fd7d9f",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -1185,13 +1200,13 @@
             "contract": "OwnerHelper",
             "label": "owner",
             "type": "t_address",
-            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:39"
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:38"
           },
           {
             "contract": "OwnerHelper",
             "label": "manager",
             "type": "t_address",
-            "src": "..\\project:\\contracts\\FansOnlyCoin2.sol:40"
+            "src": "..\\project:\\contracts\\FansOnlyCoin.sol:39"
           },
           {
             "contract": "FansOnlyCoin",
@@ -1248,6 +1263,56 @@
           },
           "t_uint8": {
             "label": "uint8"
+          }
+        }
+      }
+    },
+    "3dcc35371e070d979cf5bd5b2291f8e85e8cda0dce9d7918f53986b998abf7d7": {
+      "address": "0xab80ab538816e586C04E8421665b29B429D180c4",
+      "txHash": "0x7aa15b6959773a9db9a3b113fa7b9f82b4ae9c88d9cd87cbf931198b262e5830",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:6"
+          },
+          {
+            "contract": "BoxV2",
+            "label": "me",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "c3e82370f4cb427147f4a81a85f85e70b48c127418273286cfa89eb527f08785": {
+      "address": "0xC2475191cB6D5b37F7b8D6BeD427Ee7F00717C1E",
+      "txHash": "0x5da0377c0c8482ea349f3065b19ceb387bc0eaaa4082b56eb6b88b70d20ed59a",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:6"
+          },
+          {
+            "contract": "BoxV2",
+            "label": "me",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
           }
         }
       }
